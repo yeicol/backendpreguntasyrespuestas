@@ -1,0 +1,40 @@
+{
+  "name": "MiniStackOverFlow",
+  "version": "1.0.0",
+  "description": "Aplicación de preguntas y respuestas similar a Stack overflow",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "application",
+    "preguntas"
+  ],
+  "authors": [
+    {
+      "name": "Brian Yeicol Restrepo Tangarife",
+      "email": "byrestrepo@utp.edu.co"
+    },
+    {
+      "name": "Madelin Rangel Grisales",
+      "email": "mrangel@utp.edu.co"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "~3.4.4",
+    "jsonrequest": "^3.2.0",
+    "sqlite3": "^3.0.10",
+    "cookie-parser" : "*"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+  "scripts": {
+    "install": "npm install express-session"
+  },
+  "private": true,
+  "main": "server.js"
+}
